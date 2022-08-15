@@ -163,13 +163,6 @@ void Game::set_winner() {
     
 }
 
-void Game::check_board(int x, int y){
-	if(board[x][y].get_value() == "x" || board[x][y].get_value() == "o"){
-		return;
-	}
-	else cout << board[x][y].get_value();
-
-}
 void Game::render() {
 	
 	//draw board
