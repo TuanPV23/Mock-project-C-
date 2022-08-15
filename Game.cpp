@@ -203,7 +203,7 @@ void Game::render() {
 				++y_console;
 			}
 			else if(j == 2 || (j - 2) % 4 == 0){
-				check_board(x_console, y_console);
+				cout << board[x_console][y_console].get_value;
 			}
 			else
 				cout << " ";
